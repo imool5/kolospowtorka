@@ -4,7 +4,47 @@
     android:layout_height="match_parent">
 
     <ImageView
+
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:src="@drawable/ic_check_black_24dp"
+        android:id="@+id/Picture"
+
+        />
+
+    <TextView
+        android:textSize="20dp"
+        android:layout_marginTop="7dp"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"
+        android:id="@+id/CoffeeName"
+        android:textStyle="bold"
+        android:text="Latte"
+        android:layout_toRightOf="@id/Picture"
+        android:textColor="@color/colorAccent"
+
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/CoffeePrice"
+        android:text="Cena"
+        android:layout_alignParentRight="true"
+        android:textColor="@color/colorPrimary"
+        android:textSize="15dp"
+        />
+
+    <Button
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/PickCoffee_btn"
+        android:layout_alignParentRight="true"
+        android:text="Wybierz"
+        android:background="@color/colorPrimary"
+        android:textColor="@android:color/white"
+
+        />
 
 </RelativeLayout>

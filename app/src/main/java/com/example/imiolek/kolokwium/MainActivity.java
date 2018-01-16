@@ -12,7 +12,8 @@ import butterknife.OnClick;
 public class MainActivity extends AppCompatActivity {
 
 
-
+@BindView(R.id.wybierzdanie_btn)
+Button wybierzdanie_btn;
 
     @OnClick(R.id.wybierzdanie_btn)
     public void onClick() {
