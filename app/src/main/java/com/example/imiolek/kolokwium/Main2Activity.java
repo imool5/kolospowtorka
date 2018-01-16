@@ -21,25 +21,7 @@ public class Main2Activity extends AppCompatActivity {
     @BindView(R.id.recyclerViewkawy)
     RecyclerView recyclerViewkawy;
 
-//    @BindView(R.id.zamow_btn)
-//    Button zamow_btn;
-//
-//    @BindView(R.id.Picture)
-//    ImageView Picture;
 
-//    @OnClick(R.id.zamow_btn)
-
-
-//      public void onClick(View v) {
-//
-//        if (View.VISIBLE==0)
-//            Picture.setVisibility(View.VISIBLE);
-//
-//        else
-//
-//            Picture.setVisibility(View.INVISIBLE);
-
-//            }
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
